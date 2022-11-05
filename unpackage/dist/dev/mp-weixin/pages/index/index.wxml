@@ -1,0 +1,1 @@
+<view><view class="banner"><swiper indicator-dots="{{true}}" autoplay="{{true}}" interval="{{3000}}" duration="{{1000}}"><swiper-item><view class="swiper-item">aa</view></swiper-item><swiper-item><view class="swiper-item">nn</view></swiper-item></swiper></view></view>
