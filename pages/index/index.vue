@@ -2,8 +2,7 @@
 	<view>
 		<!-- 轮播 -->
 		<view class="banner">
-			<swiper indicator-color="rgba(255,255,255,0.5)" indicator-active-color="#ff372b" :interval="3000" :duration="6000"
-			 :indicator-dots="true" :autoplay="true">
+			<swiper :indicator-dots="true" :autoplay="true" indicator-color="rgba(255,255,255,0.5)" indicator-active-color="#ff372b" :interval="3000" :duration="5000" :circular="true" >
 				<swiper-item v-for="item in swiperList">
 					<view class="item">
 						<image :src="item.imageUrl" class="img"></image>
@@ -37,7 +36,7 @@
 					</view>
 				</view>
 
-				<template v-if="newType==1"> 
+				<template v-if="newType==1">
 					<view class="more">
 						更多新碟
 					</view>
@@ -78,7 +77,7 @@
 	</view>
 </template>
 
-<script> 
+<script>
 	import {
 		getBannerList,
 		apiGetRecommendSong,
@@ -87,9 +86,9 @@
 	} from "../../common/js/index.js"
 	import songList from '../../components/songList.vue'
 	export default {
-		components:{
+		components: {
 			songList
-		}, 
+		},
 		data() {
 			return {
 				swiperList: [],
@@ -123,6 +122,11 @@
 			this.getLatestAlbum()
 			this.getRelatedVideo()
 		},
+		onPullDownRefresh() {
+			setTimeout(() => {
+				uni.stopPullDownRefresh()
+			}, 1000)
+		},
 		methods: {
 			getBanner() {
 				getBannerList().then(data => {
@@ -132,7 +136,9 @@
 			},
 			// 推荐歌单 
 			getRecommendSong() {
-				apiGetRecommendSong({limit:6}).then(data => {
+				apiGetRecommendSong({
+					limit: 6
+				}).then(data => {
 					const formatCount = item => {
 						let tmp = item
 						if (item > 10000) {

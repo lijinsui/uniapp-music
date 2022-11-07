@@ -2,9 +2,9 @@
 	<view class="song-list-comp">
 		<view class="tit-bar">
 			{{title}}
-			<navigation-bar  :url="link" class="more fr">
+			<navigator  :url="link" class="more fr">
 				歌单广场
-			</navigation-bar>
+			</navigator>
 			<scroll-view class="scroll-view" scroll-x="">
 				<view class="item" v-for="(item, index) in list" :key="index">
 					<image :src="item.picUrl" class="img"></image>
@@ -18,8 +18,8 @@
 			</scroll-view>
 		</view>
 	</view>
-</template>
-
+</template> 
+ 
 <script>
 	export default{
 		props:{
