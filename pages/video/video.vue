@@ -135,10 +135,12 @@
 				})
 			},
 			downCallback(mescroll) {
+				// console.log('downCallback')
 				//重置列表为第一页(自动执行page.num=1，再触发upcallback方法)
 				mescroll.resetUpScroll();
 			},
 			upCallback(mescroll) {
+				// console.log('upCallback')
 				this.getList(mescroll.num, mescroll.size, res => {
 					//若是第一页 则清空
 					if (mescroll.num == 1) {

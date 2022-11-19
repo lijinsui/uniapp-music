@@ -7851,6 +7851,23 @@ internalMixin(Vue);
 
 /***/ }),
 
+/***/ 27:
+/*!********************************************************************!*\
+  !*** /Users/guojun/Desktop/uniapp/uniapp-music/common/js/video.js ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.apiGetNavList = apiGetNavList;var _requestHelper = _interopRequireDefault(__webpack_require__(/*! ./requestHelper.js */ 11));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+
+// 导航栏
+function apiGetNavList(data) {
+  return _requestHelper.default.get('/videomock', data);
+}
+
+/***/ }),
+
 /***/ 3:
 /*!***********************************!*\
   !*** (webpack)/buildin/global.js ***!
@@ -7893,24 +7910,7 @@ module.exports = g;
 
 /***/ }),
 
-/***/ 58:
-/*!********************************************************************!*\
-  !*** /Users/guojun/Desktop/uniapp/uniapp-music/common/js/video.js ***!
-  \********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.apiGetNavList = apiGetNavList;var _requestHelper = _interopRequireDefault(__webpack_require__(/*! ./requestHelper.js */ 11));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
-
-// 导航栏
-function apiGetNavList(data) {
-  return _requestHelper.default.get('/videomock', data);
-}
-
-/***/ }),
-
-/***/ 64:
+/***/ 60:
 /*!*****************************************************************************************!*\
   !*** /Users/guojun/Desktop/uniapp/uniapp-music/components/mescroll-uni/mescroll-uni.js ***!
   \*****************************************************************************************/
@@ -8721,7 +8721,7 @@ MeScroll.prototype.preventDefault = function (e) {
 
 /***/ }),
 
-/***/ 65:
+/***/ 61:
 /*!************************************************************************************************!*\
   !*** /Users/guojun/Desktop/uniapp/uniapp-music/components/mescroll-uni/mescroll-uni-option.js ***!
   \************************************************************************************************/
@@ -8768,7 +8768,7 @@ GlobalOption;exports.default = _default;
 
 /***/ }),
 
-/***/ 66:
+/***/ 62:
 /*!***************************************************************************************!*\
   !*** /Users/guojun/Desktop/uniapp/uniapp-music/components/mescroll-uni/wxs/mixins.js ***!
   \***************************************************************************************/

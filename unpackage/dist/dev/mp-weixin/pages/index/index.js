@@ -295,7 +295,7 @@ var _index = __webpack_require__(/*! ../../common/js/index.js */ 18); //
 //
 //
 //
-var songList = function songList() {__webpack_require__.e(/*! require.ensure | components/songList */ "components/songList").then((function () {return resolve(__webpack_require__(/*! ../../components/songList.vue */ 45));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default = { components: { songList: songList }, data: function data() {return { swiperList: [], contenrBar: [{ name: "每日推荐" }, { name: "歌单" }, { name: "排行榜" }, { name: "电台" }, { name: "直播" }], recommendSong: [], //推荐歌单
+var songList = function songList() {__webpack_require__.e(/*! require.ensure | components/songList */ "components/songList").then((function () {return resolve(__webpack_require__(/*! ../../components/songList.vue */ 48));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default = { components: { songList: songList }, data: function data() {return { swiperList: [], contenrBar: [{ name: "每日推荐" }, { name: "歌单" }, { name: "排行榜" }, { name: "电台" }, { name: "直播" }], recommendSong: [], //推荐歌单
       newType: 1, latestAlbum: [], //新碟新歌显示的
       latestTempAlbum: [], //全部新碟新歌
       relatedVideo: [] //精选视频
