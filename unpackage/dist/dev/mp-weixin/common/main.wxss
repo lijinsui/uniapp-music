@@ -67,8 +67,7 @@ picker,
 scroll-view,
 cover-view,
 open-data {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 rich-text,
 open-data,
@@ -116,14 +115,10 @@ button:after {
   border: 0;
 }
 .flex-box {
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
 }
 .flex-box .flex-item {
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-          flex: 1;
+  flex: 1;
 }
 .footer-box {
   height: 100rpx;

@@ -1,5 +1,9 @@
 {
   "navigationBarTitleText": "uni-app",
-  "enablePullDownRefresh": true,
-  "usingComponents": {}
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-nav-bar": "/uni_modules/uni-nav-bar/components/uni-nav-bar/uni-nav-bar",
+    "unia-nav-bar": "/uni_modules/uni-nav-bar/components/uni-nav-bar/uni-nav-bar",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni"
+  }
 }

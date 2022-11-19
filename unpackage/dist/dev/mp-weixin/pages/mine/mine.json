@@ -1,5 +1,9 @@
 {
   "navigationBarTitleText": "uni-app",
   "enablePullDownRefresh": true,
-  "usingComponents": {}
+  "usingComponents": {
+    "uni-list": "/components/uni-list/uni-list",
+    "uni-list-item": "/components/uni-list-item/uni-list-item",
+    "song-list": "/components/songList"
+  }
 }

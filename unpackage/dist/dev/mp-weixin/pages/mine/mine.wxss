@@ -61,8 +61,7 @@
   width: 70rpx;
   height: 70rpx;
   margin: 0 auto;
-  -webkit-border-radius: 50%;
-          border-radius: 50%;
+  border-radius: 50%;
 }
 .line-item .icon {
   float: left;

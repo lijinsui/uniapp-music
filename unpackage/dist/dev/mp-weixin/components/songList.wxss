@@ -43,8 +43,7 @@
   font-weight: 400;
   font-size: 24rpx;
   border: 2rpx solid #e6e6e6;
-  -webkit-border-radius: 50rpx;
-          border-radius: 50rpx;
+  border-radius: 50rpx;
 }
 .song-list-comp .item {
   float: left;
@@ -63,8 +62,7 @@
   height: 216rpx;
   margin-bottom: 16rpx;
   background: #eee;
-  -webkit-border-radius: 10rpx;
-          border-radius: 10rpx;
+  border-radius: 10rpx;
 }
 .song-list-comp .item .desc {
   height: 64rpx;

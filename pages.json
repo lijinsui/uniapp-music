@@ -34,7 +34,7 @@
 			"path": "pages/account/account",
 			"style": {
 				"navigationBarTitleText": "uni-app",
-				"enablePullDownRefresh": true,
+				"enablePullDownRefresh": false,
 				"app-plus": {
 					"titleNView": false
 				}
@@ -44,7 +44,7 @@
 			"path": "pages/cloud/cloud",
 			"style": {
 				"navigationBarTitleText": "uni-app",
-				"enablePullDownRefresh": true,
+				"enablePullDownRefresh": false,
 				"app-plus": {
 					"titleNView": false
 				}
