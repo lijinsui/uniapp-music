@@ -19,3 +19,8 @@ export function apiGetTopAlbum(data){
 export function apiGetRelatedVideo(data){
 	return requestHelper.get('/related/allvideo',data)
 }
+
+// 登录接口
+export function apiLogin(data){
+	return requestHelper.post('/test/login',data)
+}

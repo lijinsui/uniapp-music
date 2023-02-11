@@ -49,6 +49,16 @@
 					"titleNView": false
 				}
 			}
+		},
+		{
+			"path": "pages/subpages/login/login",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
 		}
 	],
 	"globalStyle": {
