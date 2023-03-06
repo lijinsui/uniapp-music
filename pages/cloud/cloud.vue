@@ -13,7 +13,7 @@
 					</view>
 				</view>
 			</view>
-
+<!-- 测试数据拉 -->
 			<!-- #ifdef APP-PLUS || H5 -->
 			<block slot="right">
 				<image src="../../static/image/mine/r.png" class="top-img"></image>
